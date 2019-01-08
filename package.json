@@ -1,0 +1,27 @@
+{
+  "name": "scaffold",
+  "version": "0.0.1",
+  "description": "An empty NodeJS project in TypeScript",
+  "main": "bin/src/app.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.15.3",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.0",
+    "tslint-config-prettier": "^1.17.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc",
+    "start": "node bin/src/app.js",
+    "start:dev": "npm install && nodemon -x 'npm run build && npm start' --watch app/src/ -L -e ts"
+  },
+  "author": "Henry Darnell",
+  "license": "MIT"
+}
