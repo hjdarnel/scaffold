@@ -8,6 +8,7 @@ This project has preinstalled and configured:
 - Jest
 - Example tests
 - Nodemon/npm scripts
+- Travis CI
 
 To get started with a new project:
 - clone this repo
